@@ -4,7 +4,7 @@ type item = {
    id:number;
     title: string;
     body: string;
-    image: number;
+    image: string;
   }
   const Card: React.FunctionComponent<item> = (props:item) => {
 
@@ -17,7 +17,7 @@ type item = {
       </div>
 
       <div>
-        <img src={`./images/${props.image}`} alt='' />
+        <img src={`${props.image}`} alt='' />
       </div>
     </StyledCard>
   )

@@ -24,7 +24,7 @@ function App() {
         <Header />
         <Container>
         {content.map((item, index) => (
-            <Card key={index} item={item} id={0} title={''} body={''} image={0}  />
+            <Card key={index} item={item} id={1} title={'Grow Together'} body={'Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.'} image={'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_weeUzEqClHr8D-EN5qrpphBESVEyEhlFIr6_hKWW5bMLt_G6'}  />
           ))}
         </Container>
         <Footer/>
